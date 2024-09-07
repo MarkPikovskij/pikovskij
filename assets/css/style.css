@@ -1,0 +1,283 @@
+*,
+*::after
+*::before{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #163a24;
+    color: #FBFAF7;
+   
+}
+
+.container{
+    max-width: 1220px;
+    padding-left: 20ox;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__link{
+    color: #FBFAF7;
+}
+
+
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.btn{
+    background-color: #198C36;
+    padding: 15px 25px 15px 25px;
+    border-radius: 160px;
+}
+
+.first-section{
+    background-color: #163a24;
+    height: calc(100vh - 98px);
+    background-image: url(../img/first-section-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.first-section__txt-block{
+    color: #FBFAF7;
+    max-width: 475px;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.section__title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.section__sub-title{
+    font-size: 18px;
+}
+
+.second section{
+    margin-top: 120px;
+    height: 1225px;
+}
+
+.second-section__block-text{
+    display: flex;
+    height: 510px;
+}
+.second-section__txt{
+    width: 400px;
+    height: 200px;
+    padding: 154px 100px;
+
+}
+.section-txt{
+    font-size: 48px;
+}
+
+.section__txt-box{
+    font-size: 18px;
+}
+
+
+.second-section__txt-block2{
+    display: flex;
+    height: 422px;
+}
+.second-section__txt2{
+    width: 400px;
+    height: 200px;
+    padding: 154px 100px;
+}
+.section-txt2{
+    font-size: 48px;
+}
+
+.section__txt-box2{
+    font-size: 18px;
+}
+
+.second-section__txt{
+    height: 300px;
+}
+
+.section-txt3{
+    font-size: 48px;
+    padding-top: 113px;
+    text-align: center;
+}
+
+.second-section__partner-image{
+    height: 60px;
+    width: auto;
+    padding-left: 98px;
+}
+
+.third-section{
+    margin-top: 120px;
+    height: 518px;
+    background-color: #163A24;
+
+}
+
+.third-section__txtbox{
+    height: 108px;
+    width: 820px;
+    padding-left: 210px;
+}
+
+.third-section__txt{
+    font-size: 48px;
+    text-align: center;
+    color: #FBFAF7;
+    padding-top: 66px;
+}
+
+.third-section__box{
+    height: 254px;
+    width: 1180px;
+    display: flex;
+    padding-top: 110px;
+}
+
+.section-box__sab-block{
+    width: 295px;
+    text-align: center;
+}
+
+.section-box__txt{
+    color: #FBFAF7;
+    font-size: 18px;
+}
+.section-box__under-txt{
+    color: #FBFAF7;
+    font-size: 18px;
+}
+
+.four-section{
+    background-color: #F2EFE6;
+    height: 775px;
+}
+
+.four-section__sab-block{
+    padding-top: 115px;
+    height: 200px;
+    width: 786px;
+    text-align: center;
+    padding-left: 210px;
+}
+
+.four-section__txt{
+    font-size: 48px;
+}
+.four-section__txt1{
+    font-size: 18px;
+}
+
+.four-section__image{
+    padding-top: 50px;
+}
+
+.fife-section{
+    height: 100vh;
+}
+
+.fife-sextion__container{
+    padding-top: 180px;
+    
+    height: 426px;
+    width: 1180px;
+    display: flex;
+}
+
+.fife-section__sab-block{
+    height: 227px;
+    width: 393px;
+    padding: 99px 98px;
+}
+
+.fife-section__txt{
+    font-size: 48px;
+}
+
+.fife-section__txt1{
+    font-size: 18px;
+}
+
+.footer{
+    height: 194px;
+}
+
+.footer__info{
+    height: 84px;
+    width: 1180px;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.footer__logo{
+    width: 110px;
+    height: 42px;
+}
+
+.footer__image{
+    padding-right: 57px;
+    height: 32px;
+    width: auto;
+}
+
+.footer__info-txt{
+    padding-left: 370px;
+    font-size: 24px;
+    height: 36px;
+    width: 242px;
+}
+
+.footer__line{
+    height: 1px;
+    width: 1180px;
+    background: #F2EFE6;
+}
+
+.footet__buttom-info{
+    height: 49px;
+    padding-top: 11px;
+    display: flex;
+}
+
+.footer__buttom-info-text{
+    height: 14px;
+    font-size: 14px;
+}
+
+.footet__button-txt{
+    padding-left: 315px;
+    display: flex;
+    height: 19px;
+    font-size: 14px;
+    color: #198C36;
+    gap: 14px;
+}
